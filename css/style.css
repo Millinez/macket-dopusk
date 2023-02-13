@@ -15,6 +15,25 @@ body {
   min-height: 747px;
 }
 
+@media (max-width: 1510px) {
+  .header {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .header {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    max-width: 750px;
+  }
+}
+
+
 .background-tint {
   background-color: rgba(37, 43, 73, 1);
   background-blend-mode: multiply;
@@ -27,6 +46,31 @@ body {
   min-width: 1510px;
   min-height: 100.95px;
 }
+
+@media (max-width: 1510px) {
+  .navbar {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .navbar {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 574px) {
+  .navbar {
+    max-width: 320px;
+  }
+}
+
 
 .navbar-logo {
   margin-left: 30px;
@@ -109,6 +153,34 @@ body {
   margin: 0 auto;
   width: 1170px;
   height: 717px;
+}
+
+@media (max-width: 1510px) {
+  .container-columns {
+    max-width: 1024px;
+    width: calc(33.33% - 1rem);
+  }
+}
+
+@media (max-width: 1170px) {
+  .container-columns{
+    max-width: 970px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-columns {
+    max-width: 750px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 574px) {
+  .container-columns {
+    max-width: 320px;
+    width: 100%;
+  }
 }
 
 .row {
