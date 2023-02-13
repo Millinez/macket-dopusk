@@ -396,6 +396,35 @@ body {
   margin-top: 31px;
 }
 
+input[type='radio']:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #fff;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #7E5D6F;
+}
+
+input[type='radio']:checked:after {
+  width: 14px;
+  height: 14px;
+  border-radius: 14px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #7E5D6F;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #7E5D6F;
+}
+
+
 /* download & footer */
 
 .section {
